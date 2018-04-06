@@ -92,26 +92,26 @@ class FeedbackSlackViewController: UIViewController {
         let border: String = "------------------------"
 
         var posts: [[String]] = [
-            ["内容", subject],
-            ["コメント", comment],
+            ["Feedback Type", subject],
+            ["Comments", comment],
             [border],
-            ["アプリ名", appName],
-            ["アプリバージョン", version],
-            ["ビルド番号", build],
-            ["端末名", UIDevice.current.name],
-            ["モデル", UIDevice.current.model],
-            ["OS名", UIDevice.current.systemName],
-            ["iOSバージョン", UIDevice.current.systemVersion],
-            ["言語", language],
-            ["国", country],
-            ["ネットワーク環境", reachability.currentReachabilityStatus.description],
-            ["キャリア名", carrier]
+            ["App", appName],
+            ["Version", version],
+            ["Build", build],
+            ["Device Name", UIDevice.current.name],
+            ["Device Model", UIDevice.current.model],
+            ["Platform", UIDevice.current.systemName],
+            ["iOS Version", UIDevice.current.systemVersion],
+            ["Language", language],
+            ["Country", country],
+            ["Network Type", reachability.currentReachabilityStatus.description],
+            ["Carrier", carrier]
         ]
 
         if let options = FeedbackSlack.shared?.options {
             posts += [
                 [border],
-                ["オプション", options]
+                ["Options", options]
             ]
         }
 
