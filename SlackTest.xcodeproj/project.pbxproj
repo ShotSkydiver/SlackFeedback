@@ -25,7 +25,6 @@
 		AD3269AD1D6942D900874453 /* FeedbackSlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3269AC1D6942D900874453 /* FeedbackSlackViewController.swift */; };
 		AD3269AF1D6944BF00874453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3269AE1D6944BF00874453 /* Assets.xcassets */; };
 		AD3269B21D6945C600874453 /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3269B11D6945C600874453 /* Instantiatable.swift */; };
-		AD43402D1D69D75F00EF3D7B /* FeedbackSlack.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD43402C1D69D75F00EF3D7B /* FeedbackSlack.plist */; };
 		AD4340351D69E49800EF3D7B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4340341D69E49800EF3D7B /* CoreTelephony.framework */; };
 		ADA77B1D1D6952870060DF67 /* FSSelectionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA77B1C1D6952870060DF67 /* FSSelectionField.swift */; };
 		ADA77B1F1D6952A70060DF67 /* FSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA77B1E1D6952A70060DF67 /* FSTextView.swift */; };
@@ -117,7 +116,6 @@
 		AD3269AC1D6942D900874453 /* FeedbackSlackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackSlackViewController.swift; sourceTree = "<group>"; };
 		AD3269AE1D6944BF00874453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3269B11D6945C600874453 /* Instantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
-		AD43402C1D69D75F00EF3D7B /* FeedbackSlack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FeedbackSlack.plist; sourceTree = "<group>"; };
 		AD43402E1D69E22800EF3D7B /* Utsname.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Utsname.framework; path = Carthage/Build/iOS/Utsname.framework; sourceTree = "<group>"; };
 		AD4340311D69E3B100EF3D7B /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
 		AD4340341D69E49800EF3D7B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -190,36 +188,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F37CBEC1D6AF14C003F69DD /* Vendors */ = {
+		855DC66D207F5D3B007E1C82 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				4F37CBED1D6AF19E003F69DD /* Reachability.swift */,
+				4FD8C6011D6A8FCF004EF8D6 /* SlackRequest.swift */,
+				AD3269A91D69427400874453 /* FeedbackSlackViewController.storyboard */,
+				ADA77B1C1D6952870060DF67 /* FSSelectionField.swift */,
+				ADA77B1E1D6952A70060DF67 /* FSTextView.swift */,
+				AD3269B11D6945C600874453 /* Instantiatable.swift */,
+				4FD7F3E41D6EE4ED0077F991 /* Transition.swift */,
+				AD3269AC1D6942D900874453 /* FeedbackSlackViewController.swift */,
+				4FD7F3E21D6EDD630077F991 /* FeedbackPreviewViewController.swift */,
+				AD3269A61D693B5B00874453 /* FeedbackSlack.swift */,
 			);
-			path = Vendors;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		4FD8C6001D6A8CDF004EF8D6 /* API */ = {
+		855DC66E207F5DDF007E1C82 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				4FD8C6011D6A8FCF004EF8D6 /* SlackRequest.swift */,
+				AD3269AE1D6944BF00874453 /* Assets.xcassets */,
 			);
-			path = API;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		AD3269851D693B1900874453 /* FeedbackSlack */ = {
 			isa = PBXGroup;
 			children = (
-				4F37CBEC1D6AF14C003F69DD /* Vendors */,
-				4FD8C6001D6A8CDF004EF8D6 /* API */,
-				AD43402B1D69D6FD00EF3D7B /* Resources */,
-				ADA77B1B1D69525F0060DF67 /* Views */,
-				AD3269B01D6945A200874453 /* Supports */,
-				AD3269AB1D6942BC00874453 /* ViewControllers */,
-				AD3269A81D69425300874453 /* Storyboard */,
+				855DC66E207F5DDF007E1C82 /* Assets */,
+				855DC66D207F5D3B007E1C82 /* Classes */,
 				AD3269861D693B1900874453 /* FeedbackSlack.h */,
 				AD3269881D693B1900874453 /* Info.plist */,
-				AD3269A61D693B5B00874453 /* FeedbackSlack.swift */,
-				AD3269AE1D6944BF00874453 /* Assets.xcassets */,
 			);
 			path = FeedbackSlack;
 			sourceTree = "<group>";
@@ -250,49 +250,6 @@
 				AE70209168F559B474CFFEE9 /* Pods_SlackTestUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AD3269A81D69425300874453 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				AD3269A91D69427400874453 /* FeedbackSlackViewController.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		AD3269AB1D6942BC00874453 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				AD3269AC1D6942D900874453 /* FeedbackSlackViewController.swift */,
-				4FD7F3E21D6EDD630077F991 /* FeedbackPreviewViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		AD3269B01D6945A200874453 /* Supports */ = {
-			isa = PBXGroup;
-			children = (
-				AD3269B11D6945C600874453 /* Instantiatable.swift */,
-				4FD7F3E41D6EE4ED0077F991 /* Transition.swift */,
-			);
-			path = Supports;
-			sourceTree = "<group>";
-		};
-		AD43402B1D69D6FD00EF3D7B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AD43402C1D69D75F00EF3D7B /* FeedbackSlack.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		ADA77B1B1D69525F0060DF67 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				ADA77B1C1D6952870060DF67 /* FSSelectionField.swift */,
-				ADA77B1E1D6952A70060DF67 /* FSTextView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		ADC63C341D68826C0066607D = {
@@ -552,7 +509,6 @@
 			files = (
 				AD3269AF1D6944BF00874453 /* Assets.xcassets in Resources */,
 				AD3269AA1D69427400874453 /* FeedbackSlackViewController.storyboard in Resources */,
-				AD43402D1D69D75F00EF3D7B /* FeedbackSlack.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

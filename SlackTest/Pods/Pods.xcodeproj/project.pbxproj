@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		129EA5C9992B7FD367B0AEE14713C298 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21508F4813C21AC5EB99296DEA367E /* Transition.swift */; };
-		135BEB5ACED5434591374012FBD5DE1C /* FSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F45049D6374BEA185376BE1BA288F /* FSTextView.swift */; };
 		1DF6F8A1EA3404686E4B4F38134472A0 /* Pods-SlackTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB97172ED08D2EAE8D823DADC4606FE /* Pods-SlackTestUITests-dummy.m */; };
-		2D3B7796A1B31A2CD595F9E0D4ED9119 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */; };
-		316ABB398E06CF5B9E7C27E532794148 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */; };
-		3C7A9E6293A3A40E592C0B9B5956011E /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0ADC0EEEAA30FA80554EDE1B63F56A /* Instantiatable.swift */; };
+		2D88F2D22542B4684CA6A6F56EA355AC /* FeedbackSlackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF30E9A95863D900BA375D197678567 /* FeedbackSlackViewController.storyboard */; };
+		3D77107647248A1E8C5A6FDCD95E989F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */; };
 		4467176BCDA598D789ACC7CFDD89A598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		4A89F66E923B2DF3E133E019C48E8892 /* FeedbackSlack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2A37E84550C88EE569A9645E75E371 /* FeedbackSlack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ABE80A4FE3F7194FF2AA88308C2204C /* Pods-SlackTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8984F1330353808C606617D53538D18F /* Pods-SlackTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6031893B30E0A7BA5AC72AA34D07CBE7 /* FeedbackSlack.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3256CD46A19BC603184A397C44E18113 /* FeedbackSlack.bundle */; };
-		63C57EA1832E58E5B46D78B74790897D /* SlackRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C900F8191179F9FC1ED4408C8DDA6AAC /* SlackRequest.swift */; };
-		647840560D1561832579DE901AC23CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		6B479C38972B1115630390FDC7FFF8D9 /* FeedbackSlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615219A7F0B19E39C96CB4DEDFD6E587 /* FeedbackSlackViewController.swift */; };
-		6B8C327667B871143C0FD612451D5A18 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81A04B2247C8B7B51024ACD2482B53 /* Reachability.swift */; };
+		51D63DB8347CF92907C3C2D6D74A0E87 /* FeedbackSlackViewController.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 7CF30E9A95863D900BA375D197678567 /* FeedbackSlackViewController.storyboard */; };
+		531196F2373459748755EC0E313D1588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AD550ED68CE2D3CC1B66FBAB37FCA6 /* Assets.xcassets */; };
+		61FB6BFF5CC00F37B9D84C7BA6E9D5D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
+		6A86A34F6405B46234E2634C971C4602 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD5860E440B20C83151F5684FDDC9D /* Reachability.swift */; };
 		70910EEC6C9A50621D2803494D7E1B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		81E775D933C599FF37BF04654C4CDA80 /* FeedbackSlack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 982874D11881DEC251F19B392D9D8764 /* FeedbackSlack-dummy.m */; };
-		8EB74E59998500FE6E4BD085B025F38A /* FeedbackSlackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736FBDEB488FA0E7A87C76A5C1B399FD /* FeedbackSlackViewController.storyboard */; };
-		91B62903D4A51655606DB9E060A5277B /* FeedbackPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2B7F5E4D8864ED35EF59FAFC517CC /* FeedbackPreviewViewController.swift */; };
+		767A9A8E5CDC85DB1F30F91F8DB98012 /* FeedbackSlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDACDA5D8605B72F98A6911C963D87C /* FeedbackSlack.swift */; };
+		76B7651D22A570876C2BB99A0DA134FA /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A818D5CEA49EABA96AD05B1B6FCA4E /* Transition.swift */; };
+		77043DBAB1B097DAAE073D07BC8F3977 /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3F29EBB7231E4523D0990D59B2DC61 /* Instantiatable.swift */; };
 		93C7D04A52109C7614FEAD488BD0A313 /* Pods-SlackTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6A6E447A60719DA0413B394327D0C1 /* Pods-SlackTest-dummy.m */; };
+		989FD31CB138EBA1C3F90189BC4DD132 /* FeedbackSlack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 860722F2C7F849CC73B30E410DA665CB /* FeedbackSlack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E035576AB2CB479121C633D36971D8A /* Pods-SlackTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D202CCB5D4528E34AED8BBCBE490D4 /* Pods-SlackTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADDA6C3118F13F970BE26A588CC2B6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9590D4545461B85B666382DC7FBBB6FA /* Assets.xcassets */; };
-		B7AB58A47EDD9E7455809B7C21B8EB83 /* FSSelectionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFC193D9B8CD4866F65714EF8ECAC /* FSSelectionField.swift */; };
+		9FD9A39D0DCDB06F5ED17C47684B40FF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */; };
+		AA7E95F1BBDF2867DA0C4E5286ED3436 /* FeedbackSlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB27BA2E5C5D3FBFCAEC26A21238E58 /* FeedbackSlackViewController.swift */; };
 		BB650F3C40DABA1B04BC68A718EB40A8 /* Pods-SlackTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D7D02CB2D367F3F8DB898A92001B98 /* Pods-SlackTestTests-dummy.m */; };
 		C1C9657C88A1EA21F07906C89120F4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		C2C76CCFA77B92F3945FFFA48296C0E0 /* FeedbackSlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A80B7395EEFE2328DF69A7E5108399 /* FeedbackSlack.swift */; };
+		C341A99838B95F4B3474193E56E32006 /* SlackRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30199CE1F70F9E2E87C0213BE9E082 /* SlackRequest.swift */; };
+		C6FC029246537FEA9EB4C45349AB6589 /* FSSelectionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865CA87E1B4B406AF49188667DA3BE7 /* FSSelectionField.swift */; };
 		E443D40E4079765038F09B459F034CE9 /* Pods-SlackTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8423CB7ABD43941EDA493023A9787A3 /* Pods-SlackTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5282280202BCA4F25110116F9BBBD68 /* FeedbackSlack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE7070348DD87AA729390AF65130A /* FeedbackSlack-dummy.m */; };
+		E8D9446A63E883E095A7930FCDB5D137 /* FeedbackPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A9C03992CF159516471A91020D880 /* FeedbackPreviewViewController.swift */; };
+		F13414C797DA6396E387358E24286838 /* FSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3B02A97F46BD39272AA71D86F888A /* FSTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +42,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2589D871CE715BACB54215F8A8F158EF;
 			remoteInfo = "Pods-SlackTest";
-		};
-		BD0D1D4CC421CE556489422B165377D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C226E0C04B013688DDE7ECFC94875B07;
-			remoteInfo = "FeedbackSlack-FeedbackSlack";
 		};
 		EFAAE2DB0255D3F56084895D82406AB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -61,75 +54,83 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 47445A066A513DF9279DE17ED61AEFF8;
+			remoteGlobalIDString = D3D24B6517840E24386080CC5DC1505C;
 			remoteInfo = FeedbackSlack;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A818D5CEA49EABA96AD05B1B6FCA4E /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = FeedbackSlack/Classes/Transition.swift; sourceTree = "<group>"; };
 		01848A21E11C961E23F18F31FAE47B7B /* Pods-SlackTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlackTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		03DBB50C9416F9D5397CB05D5E89A3DE /* Pods-SlackTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlackTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		074250F84575579B43F82BE0C3C8BF2A /* Pods_SlackTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlackTestUITests.framework; path = "Pods-SlackTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		084CD48A429D8EA3F9090DEF38CB79AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB27BA2E5C5D3FBFCAEC26A21238E58 /* FeedbackSlackViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedbackSlackViewController.swift; path = FeedbackSlack/Classes/FeedbackSlackViewController.swift; sourceTree = "<group>"; };
 		0CDD9A7FD332C92EBBBCFD822C071645 /* Pods-SlackTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlackTestUITests.modulemap"; sourceTree = "<group>"; };
 		189946C93AB4D0F5E70E3DD3540F1335 /* Pods-SlackTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlackTestTests-resources.sh"; sourceTree = "<group>"; };
 		1DC4BA01D3604747E2327BC7AFD4BA54 /* Pods-SlackTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlackTest.debug.xcconfig"; sourceTree = "<group>"; };
+		1FB5DFFBC01FC66C4B58EB6048010710 /* FeedbackSlack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeedbackSlack.modulemap; sourceTree = "<group>"; };
 		20892E38616F315DC645234D05766BA4 /* Pods-SlackTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlackTest-frameworks.sh"; sourceTree = "<group>"; };
-		24A80B7395EEFE2328DF69A7E5108399 /* FeedbackSlack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedbackSlack.swift; path = FeedbackSlack/FeedbackSlack.swift; sourceTree = "<group>"; };
+		22624995746BFB48F8F2B1296576C7EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		22C2CCAD19207CD13C4389986F99D12E /* FeedbackSlack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FeedbackSlack.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		281F2A5378D9A357A4FEA09A11AA8709 /* Pods-SlackTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlackTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C5CFC193D9B8CD4866F65714EF8ECAC /* FSSelectionField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FSSelectionField.swift; sourceTree = "<group>"; };
-		2C6EC8DB9B91EA102FFD952CA6E4C857 /* FeedbackSlack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FeedbackSlack.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D6A6E447A60719DA0413B394327D0C1 /* Pods-SlackTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlackTest-dummy.m"; sourceTree = "<group>"; };
-		2E0AB7962E3AAA51DD3DE02257380EC0 /* FeedbackSlack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedbackSlack-prefix.pch"; sourceTree = "<group>"; };
-		30AAE09C0D534CF8BAE81FE62A1FB746 /* FeedbackSlack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeedbackSlack.modulemap; sourceTree = "<group>"; };
-		3256CD46A19BC603184A397C44E18113 /* FeedbackSlack.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FeedbackSlack.bundle; path = "FeedbackSlack-FeedbackSlack.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3297827992A10FB66004342DDADCDDE4 /* Pods-SlackTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlackTestUITests-frameworks.sh"; sourceTree = "<group>"; };
-		3574DC8F301618F1B35A6E9B3B755B74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3900C7B51C37A0B7CD3B5950E33DA32A /* FeedbackSlack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedbackSlack.xcconfig; sourceTree = "<group>"; };
-		3B81A04B2247C8B7B51024ACD2482B53 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3865CA87E1B4B406AF49188667DA3BE7 /* FSSelectionField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSSelectionField.swift; path = FeedbackSlack/Classes/FSSelectionField.swift; sourceTree = "<group>"; };
 		3E77749486C5764134D5165727A82F2D /* Pods-SlackTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlackTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3FB97172ED08D2EAE8D823DADC4606FE /* Pods-SlackTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlackTestUITests-dummy.m"; sourceTree = "<group>"; };
-		40C2CA1F9FD7B8B5024BE47C3C0B2C5B /* ResourceBundle-FeedbackSlack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FeedbackSlack-Info.plist"; sourceTree = "<group>"; };
 		4B346C4E295163A88E36B7BC0E13FD3F /* Pods-SlackTestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlackTestUITests-resources.sh"; sourceTree = "<group>"; };
 		53C93317DD5BAC28C74A472C80B8D18E /* Pods-SlackTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlackTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55574384CBC673E1817B6EDD56A074CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		5C0ADC0EEEAA30FA80554EDE1B63F56A /* Instantiatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
-		5C2A37E84550C88EE569A9645E75E371 /* FeedbackSlack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedbackSlack-umbrella.h"; sourceTree = "<group>"; };
-		615219A7F0B19E39C96CB4DEDFD6E587 /* FeedbackSlackViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackSlackViewController.swift; sourceTree = "<group>"; };
+		61CCE7070348DD87AA729390AF65130A /* FeedbackSlack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedbackSlack-dummy.m"; sourceTree = "<group>"; };
+		66B0BACEF5E052C89C2D2B34F99B64AB /* Pods_SlackTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlackTestTests.framework; path = "Pods-SlackTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		687F26C4EEC3C47EC0091ADCA08DEFF0 /* Pods-SlackTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlackTest.modulemap"; sourceTree = "<group>"; };
-		736FBDEB488FA0E7A87C76A5C1B399FD /* FeedbackSlackViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = FeedbackSlackViewController.storyboard; path = FeedbackSlack/Storyboard/FeedbackSlackViewController.storyboard; sourceTree = "<group>"; };
-		767A4515A9C5E354F57548D575192EED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6CE3B02A97F46BD39272AA71D86F888A /* FSTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTextView.swift; path = FeedbackSlack/Classes/FSTextView.swift; sourceTree = "<group>"; };
 		77015C459C58D2F0FDEB8A83F56BDE02 /* Pods-SlackTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlackTestTests-frameworks.sh"; sourceTree = "<group>"; };
 		7A50F6EAF0AB97049D6A8557412963DC /* Pods-SlackTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlackTestTests.modulemap"; sourceTree = "<group>"; };
-		88C2B7F5E4D8864ED35EF59FAFC517CC /* FeedbackPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackPreviewViewController.swift; sourceTree = "<group>"; };
+		7CF30E9A95863D900BA375D197678567 /* FeedbackSlackViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = FeedbackSlackViewController.storyboard; path = FeedbackSlack/Classes/FeedbackSlackViewController.storyboard; sourceTree = "<group>"; };
+		7FDACDA5D8605B72F98A6911C963D87C /* FeedbackSlack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedbackSlack.swift; path = FeedbackSlack/Classes/FeedbackSlack.swift; sourceTree = "<group>"; };
+		860722F2C7F849CC73B30E410DA665CB /* FeedbackSlack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedbackSlack-umbrella.h"; sourceTree = "<group>"; };
+		88B22DCD6E7DA1930B3FD5F4C13281EF /* Pods_SlackTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlackTestUITests.framework; path = "Pods-SlackTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8984F1330353808C606617D53538D18F /* Pods-SlackTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlackTest-umbrella.h"; sourceTree = "<group>"; };
 		8D7E8923296298489A6773E5B335D62E /* Pods-SlackTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlackTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F3F29EBB7231E4523D0990D59B2DC61 /* Instantiatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instantiatable.swift; path = FeedbackSlack/Classes/Instantiatable.swift; sourceTree = "<group>"; };
+		9153CB981C214FAF92582EFD6F37316F /* FeedbackSlack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedbackSlack.xcconfig; sourceTree = "<group>"; };
 		9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9590D4545461B85B666382DC7FBBB6FA /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FeedbackSlack/Assets.xcassets; sourceTree = "<group>"; };
-		982874D11881DEC251F19B392D9D8764 /* FeedbackSlack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedbackSlack-dummy.m"; sourceTree = "<group>"; };
+		981A52BF3B296C521D8B90128F746CE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D56A506561C596B925BC7D5B153E4E /* Pods-SlackTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlackTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A67A9480E8B8E3A5BC895745DDB92933 /* Pods-SlackTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlackTest.release.xcconfig"; sourceTree = "<group>"; };
 		A9F443AD4DC465B5603B580C2D493BA2 /* Pods-SlackTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlackTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB21508F4813C21AC5EB99296DEA367E /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
-		ADEC57F39C71FB7C2D51FB4B58A56460 /* Pods_SlackTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlackTest.framework; path = "Pods-SlackTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B416F4D442A130B1ADA114A76E464F76 /* FeedbackSlack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeedbackSlack.framework; path = FeedbackSlack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA338FA3CE01D073DB82A177C61A921 /* FeedbackSlack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedbackSlack-prefix.pch"; sourceTree = "<group>"; };
 		BD78919E9CAB4755A7A7DFD43B4A95D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD875FF66925F6CB4619092235388E34 /* Pods-SlackTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlackTest-resources.sh"; sourceTree = "<group>"; };
 		C570C28140096552783D342ECC4B739C /* Pods-SlackTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlackTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C8423CB7ABD43941EDA493023A9787A3 /* Pods-SlackTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlackTestUITests-umbrella.h"; sourceTree = "<group>"; };
-		C900F8191179F9FC1ED4408C8DDA6AAC /* SlackRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlackRequest.swift; sourceTree = "<group>"; };
-		E19F45049D6374BEA185376BE1BA288F /* FSTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FSTextView.swift; sourceTree = "<group>"; };
+		CA30199CE1F70F9E2E87C0213BE9E082 /* SlackRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlackRequest.swift; path = FeedbackSlack/Classes/SlackRequest.swift; sourceTree = "<group>"; };
+		D7AD550ED68CE2D3CC1B66FBAB37FCA6 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDA386D3D9CADBBC4B77E9E616380538 /* FeedbackSlack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeedbackSlack.framework; path = FeedbackSlack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CD5860E440B20C83151F5684FDDC9D /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = FeedbackSlack/Classes/Reachability.swift; sourceTree = "<group>"; };
 		E4D7D02CB2D367F3F8DB898A92001B98 /* Pods-SlackTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlackTestTests-dummy.m"; sourceTree = "<group>"; };
-		E7728A58EAAAC97AFA2BB3E09228E9B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D202CCB5D4528E34AED8BBCBE490D4 /* Pods-SlackTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlackTestTests-umbrella.h"; sourceTree = "<group>"; };
 		EA3FF20A35570A2536CE30C6414BF417 /* Pods-SlackTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlackTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		FA7D32F354CE56D157A231728C52497E /* Pods_SlackTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlackTestTests.framework; path = "Pods-SlackTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86A9C03992CF159516471A91020D880 /* FeedbackPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedbackPreviewViewController.swift; path = FeedbackSlack/Classes/FeedbackPreviewViewController.swift; sourceTree = "<group>"; };
+		FA41B04187E331CB12FF15A6409C98DC /* Pods_SlackTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlackTest.framework; path = "Pods-SlackTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3658F56B0877D111576FF0BDAAAD82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		21C758B5599497E7DE64E11A47889D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD9A39D0DCDB06F5ED17C47684B40FF /* CoreTelephony.framework in Frameworks */,
+				61FB6BFF5CC00F37B9D84C7BA6E9D5D1 /* Foundation.framework in Frameworks */,
+				3D77107647248A1E8C5A6FDCD95E989F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		421756C112AEDED52A8D99EDEF6628AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,39 +155,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59138B43F0BE204B453E2A9056421159 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				316ABB398E06CF5B9E7C27E532794148 /* CoreTelephony.framework in Frameworks */,
-				647840560D1561832579DE901AC23CD4 /* Foundation.framework in Frameworks */,
-				2D3B7796A1B31A2CD595F9E0D4ED9119 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E61F64DF5D49C8DF7428096B16A04DA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E06B47C4AD0C39393E7880B866A981C /* Support Files */ = {
+		0CF9615E8DA19488CC7DC28750F4ADEC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				30AAE09C0D534CF8BAE81FE62A1FB746 /* FeedbackSlack.modulemap */,
-				3900C7B51C37A0B7CD3B5950E33DA32A /* FeedbackSlack.xcconfig */,
-				982874D11881DEC251F19B392D9D8764 /* FeedbackSlack-dummy.m */,
-				2E0AB7962E3AAA51DD3DE02257380EC0 /* FeedbackSlack-prefix.pch */,
-				5C2A37E84550C88EE569A9645E75E371 /* FeedbackSlack-umbrella.h */,
-				E7728A58EAAAC97AFA2BB3E09228E9B2 /* Info.plist */,
-				40C2CA1F9FD7B8B5024BE47C3C0B2C5B /* ResourceBundle-FeedbackSlack-Info.plist */,
+				1ECF0BBD93B72CCF73187C3602AA6220 /* FeedbackSlack */,
 			);
-			name = "Support Files";
-			path = "SlackTest/Pods/Target Support Files/FeedbackSlack";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -195,6 +172,27 @@
 				A1F41256A09661734466D0BEFE210060 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ECF0BBD93B72CCF73187C3602AA6220 /* FeedbackSlack */ = {
+			isa = PBXGroup;
+			children = (
+				F86A9C03992CF159516471A91020D880 /* FeedbackPreviewViewController.swift */,
+				7FDACDA5D8605B72F98A6911C963D87C /* FeedbackSlack.swift */,
+				7CF30E9A95863D900BA375D197678567 /* FeedbackSlackViewController.storyboard */,
+				0BB27BA2E5C5D3FBFCAEC26A21238E58 /* FeedbackSlackViewController.swift */,
+				3865CA87E1B4B406AF49188667DA3BE7 /* FSSelectionField.swift */,
+				6CE3B02A97F46BD39272AA71D86F888A /* FSTextView.swift */,
+				8F3F29EBB7231E4523D0990D59B2DC61 /* Instantiatable.swift */,
+				E0CD5860E440B20C83151F5684FDDC9D /* Reachability.swift */,
+				CA30199CE1F70F9E2E87C0213BE9E082 /* SlackRequest.swift */,
+				00A818D5CEA49EABA96AD05B1B6FCA4E /* Transition.swift */,
+				EDA859BBA7CB123AE5911A4E487B4D3C /* Pod */,
+				96EC716898D3F441FD87B9078591FD1D /* Resources */,
+				FB7806457B2E2A3311B8401075D055ED /* Support Files */,
+			);
+			name = FeedbackSlack;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		36157FE156D932D3DC5A8882C37402CB /* Pods-SlackTestUITests */ = {
@@ -225,66 +223,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5940B5BF8CBE5C6F349318737EAF6345 /* Products */ = {
+		79B9CD6AE8898EE597273B8C6D5FB010 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3256CD46A19BC603184A397C44E18113 /* FeedbackSlack.bundle */,
-				B416F4D442A130B1ADA114A76E464F76 /* FeedbackSlack.framework */,
-				ADEC57F39C71FB7C2D51FB4B58A56460 /* Pods_SlackTest.framework */,
-				FA7D32F354CE56D157A231728C52497E /* Pods_SlackTestTests.framework */,
-				074250F84575579B43F82BE0C3C8BF2A /* Pods_SlackTestUITests.framework */,
+				D7AD550ED68CE2D3CC1B66FBAB37FCA6 /* Assets.xcassets */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		60BAF914B6EA8EB66C17B1B0D364EC2F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2C5CFC193D9B8CD4866F65714EF8ECAC /* FSSelectionField.swift */,
-				E19F45049D6374BEA185376BE1BA288F /* FSTextView.swift */,
-			);
-			name = Views;
-			path = FeedbackSlack/Views;
-			sourceTree = "<group>";
-		};
-		633F0555915743DD7E335BC451792801 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				C900F8191179F9FC1ED4408C8DDA6AAC /* SlackRequest.swift */,
-			);
-			name = API;
-			path = FeedbackSlack/API;
+			name = Assets;
+			path = FeedbackSlack/Assets;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A89E4C6ED529086A4745D3E633AB3219 /* Development Pods */,
+				0CF9615E8DA19488CC7DC28750F4ADEC /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				5940B5BF8CBE5C6F349318737EAF6345 /* Products */,
+				F2C87A2EA0599F5523723633612A4081 /* Products */,
 				549897443DB37427F9DA5EE8F04930B8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8146835C8D0186A1791BE981AE51A6E6 /* ViewControllers */ = {
+		96EC716898D3F441FD87B9078591FD1D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				88C2B7F5E4D8864ED35EF59FAFC517CC /* FeedbackPreviewViewController.swift */,
-				615219A7F0B19E39C96CB4DEDFD6E587 /* FeedbackSlackViewController.swift */,
+				79B9CD6AE8898EE597273B8C6D5FB010 /* Assets */,
 			);
-			name = ViewControllers;
-			path = FeedbackSlack/ViewControllers;
-			sourceTree = "<group>";
-		};
-		A111E66697758E95F44E6C38FE87A59D /* Supports */ = {
-			isa = PBXGroup;
-			children = (
-				5C0ADC0EEEAA30FA80554EDE1B63F56A /* Instantiatable.swift */,
-				AB21508F4813C21AC5EB99296DEA367E /* Transition.swift */,
-			);
-			name = Supports;
-			path = FeedbackSlack/Supports;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A1F41256A09661734466D0BEFE210060 /* iOS */ = {
@@ -295,14 +259,6 @@
 				584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		A89E4C6ED529086A4745D3E633AB3219 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F00257D5868532958F0B02CCAD4806E7 /* FeedbackSlack */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B393364C24AD33AE2B53A2501D7D647C /* Pods-SlackTest */ = {
@@ -323,15 +279,6 @@
 			path = "Target Support Files/Pods-SlackTest";
 			sourceTree = "<group>";
 		};
-		C76AF74A60CCD0443F047A8AA5CD45C3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9590D4545461B85B666382DC7FBBB6FA /* Assets.xcassets */,
-				736FBDEB488FA0E7A87C76A5C1B399FD /* FeedbackSlackViewController.storyboard */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		D4AD3D6B0FC240BDF9287611264B1912 /* Pods-SlackTestTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,40 +297,39 @@
 			path = "Target Support Files/Pods-SlackTestTests";
 			sourceTree = "<group>";
 		};
-		DFDD02AACE1F0BA1E7A40FB60B0A7555 /* Vendors */ = {
+		EDA859BBA7CB123AE5911A4E487B4D3C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3B81A04B2247C8B7B51024ACD2482B53 /* Reachability.swift */,
-			);
-			name = Vendors;
-			path = FeedbackSlack/Vendors;
-			sourceTree = "<group>";
-		};
-		EFF92DE7279D75B9A714BD6374B2D3D8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2C6EC8DB9B91EA102FFD952CA6E4C857 /* FeedbackSlack.podspec */,
-				3574DC8F301618F1B35A6E9B3B755B74 /* LICENSE */,
-				767A4515A9C5E354F57548D575192EED /* README.md */,
+				22C2CCAD19207CD13C4389986F99D12E /* FeedbackSlack.podspec */,
+				55574384CBC673E1817B6EDD56A074CB /* LICENSE */,
+				22624995746BFB48F8F2B1296576C7EB /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		F00257D5868532958F0B02CCAD4806E7 /* FeedbackSlack */ = {
+		F2C87A2EA0599F5523723633612A4081 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24A80B7395EEFE2328DF69A7E5108399 /* FeedbackSlack.swift */,
-				633F0555915743DD7E335BC451792801 /* API */,
-				EFF92DE7279D75B9A714BD6374B2D3D8 /* Pod */,
-				C76AF74A60CCD0443F047A8AA5CD45C3 /* Resources */,
-				0E06B47C4AD0C39393E7880B866A981C /* Support Files */,
-				A111E66697758E95F44E6C38FE87A59D /* Supports */,
-				DFDD02AACE1F0BA1E7A40FB60B0A7555 /* Vendors */,
-				8146835C8D0186A1791BE981AE51A6E6 /* ViewControllers */,
-				60BAF914B6EA8EB66C17B1B0D364EC2F /* Views */,
+				DDA386D3D9CADBBC4B77E9E616380538 /* FeedbackSlack.framework */,
+				FA41B04187E331CB12FF15A6409C98DC /* Pods_SlackTest.framework */,
+				66B0BACEF5E052C89C2D2B34F99B64AB /* Pods_SlackTestTests.framework */,
+				88B22DCD6E7DA1930B3FD5F4C13281EF /* Pods_SlackTestUITests.framework */,
 			);
-			name = FeedbackSlack;
-			path = ../..;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7806457B2E2A3311B8401075D055ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FB5DFFBC01FC66C4B58EB6048010710 /* FeedbackSlack.modulemap */,
+				9153CB981C214FAF92582EFD6F37316F /* FeedbackSlack.xcconfig */,
+				61CCE7070348DD87AA729390AF65130A /* FeedbackSlack-dummy.m */,
+				BBA338FA3CE01D073DB82A177C61A921 /* FeedbackSlack-prefix.pch */,
+				860722F2C7F849CC73B30E410DA665CB /* FeedbackSlack-umbrella.h */,
+				981A52BF3B296C521D8B90128F746CE0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "SlackTest/Pods/Target Support Files/FeedbackSlack";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,19 +343,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D34FA86445E124384717EFE8068BAC9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A89F66E923B2DF3E133E019C48E8892 /* FeedbackSlack-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A41BF5007537125ACEA019BB5853B676 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4ABE80A4FE3F7194FF2AA88308C2204C /* Pods-SlackTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6935C585B75965AA8E8B89B4302857 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989FD31CB138EBA1C3F90189BC4DD132 /* FeedbackSlack-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,44 +385,26 @@
 			);
 			name = "Pods-SlackTest";
 			productName = "Pods-SlackTest";
-			productReference = ADEC57F39C71FB7C2D51FB4B58A56460 /* Pods_SlackTest.framework */;
+			productReference = FA41B04187E331CB12FF15A6409C98DC /* Pods_SlackTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		47445A066A513DF9279DE17ED61AEFF8 /* FeedbackSlack */ = {
+		D3D24B6517840E24386080CC5DC1505C /* FeedbackSlack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5922478D02B17EBCC48CE678B2D9318A /* Build configuration list for PBXNativeTarget "FeedbackSlack" */;
+			buildConfigurationList = E401EC1BE1422F007B6E1E609C90D9E0 /* Build configuration list for PBXNativeTarget "FeedbackSlack" */;
 			buildPhases = (
-				A4D86284CB024B4FE011C47311AA866C /* Sources */,
-				59138B43F0BE204B453E2A9056421159 /* Frameworks */,
-				2B6F7DA1D37997E8189D04763DFC7BBF /* Resources */,
-				0D34FA86445E124384717EFE8068BAC9 /* Headers */,
+				B87EA112A2067A670EF4CC1E266C57C2 /* Sources */,
+				21C758B5599497E7DE64E11A47889D07 /* Frameworks */,
+				FAEB7FED31C085A00396ABC8448E87ED /* Resources */,
+				CC6935C585B75965AA8E8B89B4302857 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8FF5A1A4B2E475195DF95DBB74AB840 /* PBXTargetDependency */,
 			);
 			name = FeedbackSlack;
 			productName = FeedbackSlack;
-			productReference = B416F4D442A130B1ADA114A76E464F76 /* FeedbackSlack.framework */;
+			productReference = DDA386D3D9CADBBC4B77E9E616380538 /* FeedbackSlack.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		C226E0C04B013688DDE7ECFC94875B07 /* FeedbackSlack-FeedbackSlack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2962D19177AB8C4379E469DE248DC5A3 /* Build configuration list for PBXNativeTarget "FeedbackSlack-FeedbackSlack" */;
-			buildPhases = (
-				4DD514D84C446ED3E759263BDA1C14B7 /* Sources */,
-				E61F64DF5D49C8DF7428096B16A04DA2 /* Frameworks */,
-				A3DA7E0626E5901F2A81CF58F10DCFA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FeedbackSlack-FeedbackSlack";
-			productName = "FeedbackSlack-FeedbackSlack";
-			productReference = 3256CD46A19BC603184A397C44E18113 /* FeedbackSlack.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		E5C251554D966E84792EFD8F47C89C1D /* Pods-SlackTestUITests */ = {
 			isa = PBXNativeTarget;
@@ -493,7 +421,7 @@
 			);
 			name = "Pods-SlackTestUITests";
 			productName = "Pods-SlackTestUITests";
-			productReference = 074250F84575579B43F82BE0C3C8BF2A /* Pods_SlackTestUITests.framework */;
+			productReference = 88B22DCD6E7DA1930B3FD5F4C13281EF /* Pods_SlackTestUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F28E7267A2DBC75A68A0594BDD7D37D0 /* Pods-SlackTestTests */ = {
@@ -511,7 +439,7 @@
 			);
 			name = "Pods-SlackTestTests";
 			productName = "Pods-SlackTestTests";
-			productReference = FA7D32F354CE56D157A231728C52497E /* Pods_SlackTestTests.framework */;
+			productReference = 66B0BACEF5E052C89C2D2B34F99B64AB /* Pods_SlackTestTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -531,12 +459,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5940B5BF8CBE5C6F349318737EAF6345 /* Products */;
+			productRefGroup = F2C87A2EA0599F5523723633612A4081 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47445A066A513DF9279DE17ED61AEFF8 /* FeedbackSlack */,
-				C226E0C04B013688DDE7ECFC94875B07 /* FeedbackSlack-FeedbackSlack */,
+				D3D24B6517840E24386080CC5DC1505C /* FeedbackSlack */,
 				2589D871CE715BACB54215F8A8F158EF /* Pods-SlackTest */,
 				F28E7267A2DBC75A68A0594BDD7D37D0 /* Pods-SlackTestTests */,
 				E5C251554D966E84792EFD8F47C89C1D /* Pods-SlackTestUITests */,
@@ -545,20 +472,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B6F7DA1D37997E8189D04763DFC7BBF /* Resources */ = {
+		FAEB7FED31C085A00396ABC8448E87ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADDA6C3118F13F970BE26A588CC2B6ED /* Assets.xcassets in Resources */,
-				6031893B30E0A7BA5AC72AA34D07CBE7 /* FeedbackSlack.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3DA7E0626E5901F2A81CF58F10DCFA5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EB74E59998500FE6E4BD085B025F38A /* FeedbackSlackViewController.storyboard in Resources */,
+				531196F2373459748755EC0E313D1588 /* Assets.xcassets in Resources */,
+				2D88F2D22542B4684CA6A6F56EA355AC /* FeedbackSlackViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,27 +492,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DD514D84C446ED3E759263BDA1C14B7 /* Sources */ = {
+		B87EA112A2067A670EF4CC1E266C57C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4D86284CB024B4FE011C47311AA866C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91B62903D4A51655606DB9E060A5277B /* FeedbackPreviewViewController.swift in Sources */,
-				81E775D933C599FF37BF04654C4CDA80 /* FeedbackSlack-dummy.m in Sources */,
-				C2C76CCFA77B92F3945FFFA48296C0E0 /* FeedbackSlack.swift in Sources */,
-				6B479C38972B1115630390FDC7FFF8D9 /* FeedbackSlackViewController.swift in Sources */,
-				B7AB58A47EDD9E7455809B7C21B8EB83 /* FSSelectionField.swift in Sources */,
-				135BEB5ACED5434591374012FBD5DE1C /* FSTextView.swift in Sources */,
-				3C7A9E6293A3A40E592C0B9B5956011E /* Instantiatable.swift in Sources */,
-				6B8C327667B871143C0FD612451D5A18 /* Reachability.swift in Sources */,
-				63C57EA1832E58E5B46D78B74790897D /* SlackRequest.swift in Sources */,
-				129EA5C9992B7FD367B0AEE14713C298 /* Transition.swift in Sources */,
+				E8D9446A63E883E095A7930FCDB5D137 /* FeedbackPreviewViewController.swift in Sources */,
+				E5282280202BCA4F25110116F9BBBD68 /* FeedbackSlack-dummy.m in Sources */,
+				767A9A8E5CDC85DB1F30F91F8DB98012 /* FeedbackSlack.swift in Sources */,
+				51D63DB8347CF92907C3C2D6D74A0E87 /* FeedbackSlackViewController.storyboard in Sources */,
+				AA7E95F1BBDF2867DA0C4E5286ED3436 /* FeedbackSlackViewController.swift in Sources */,
+				C6FC029246537FEA9EB4C45349AB6589 /* FSSelectionField.swift in Sources */,
+				F13414C797DA6396E387358E24286838 /* FSTextView.swift in Sources */,
+				77043DBAB1B097DAAE073D07BC8F3977 /* Instantiatable.swift in Sources */,
+				6A86A34F6405B46234E2634C971C4602 /* Reachability.swift in Sources */,
+				C341A99838B95F4B3474193E56E32006 /* SlackRequest.swift in Sources */,
+				76B7651D22A570876C2BB99A0DA134FA /* Transition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,7 +532,7 @@
 		0FD30561000C49D84B18DCB466A918E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FeedbackSlack;
-			target = 47445A066A513DF9279DE17ED61AEFF8 /* FeedbackSlack */;
+			target = D3D24B6517840E24386080CC5DC1505C /* FeedbackSlack */;
 			targetProxy = FC2B03178062342E9ABCA6AAFE77DBCA /* PBXContainerItemProxy */;
 		};
 		969928FCCFCA719CCFDB8DC367D60385 /* PBXTargetDependency */ = {
@@ -627,12 +540,6 @@
 			name = "Pods-SlackTest";
 			target = 2589D871CE715BACB54215F8A8F158EF /* Pods-SlackTest */;
 			targetProxy = EFAAE2DB0255D3F56084895D82406AB7 /* PBXContainerItemProxy */;
-		};
-		C8FF5A1A4B2E475195DF95DBB74AB840 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "FeedbackSlack-FeedbackSlack";
-			target = C226E0C04B013688DDE7ECFC94875B07 /* FeedbackSlack-FeedbackSlack */;
-			targetProxy = BD0D1D4CC421CE556489422B165377D7 /* PBXContainerItemProxy */;
 		};
 		FE106A3AD92992BC586661E1B9CCCB1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -748,25 +655,9 @@
 			};
 			name = Debug;
 		};
-		2819BEFE0AF98AB05CC1588E6BD1C5C1 /* Release */ = {
+		37A80FF4FF6B62AF6DC7FD89C33E361A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3900C7B51C37A0B7CD3B5950E33DA32A /* FeedbackSlack.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FeedbackSlack";
-				INFOPLIST_FILE = "Target Support Files/FeedbackSlack/ResourceBundle-FeedbackSlack-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = FeedbackSlack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		507BA1426B2F4777DB4FB2CA403DB162 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3900C7B51C37A0B7CD3B5950E33DA32A /* FeedbackSlack.xcconfig */;
+			baseConfigurationReference = 9153CB981C214FAF92582EFD6F37316F /* FeedbackSlack.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -789,14 +680,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1024,25 +914,9 @@
 			};
 			name = Debug;
 		};
-		A8735DCA5274DCE8C66547156BA5F468 /* Debug */ = {
+		CC3819D59532623438BE105A53163CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3900C7B51C37A0B7CD3B5950E33DA32A /* FeedbackSlack.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FeedbackSlack";
-				INFOPLIST_FILE = "Target Support Files/FeedbackSlack/ResourceBundle-FeedbackSlack-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = FeedbackSlack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		AA734A86A07E58E3EA3E540B7A0B7E08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3900C7B51C37A0B7CD3B5950E33DA32A /* FeedbackSlack.xcconfig */;
+			baseConfigurationReference = 9153CB981C214FAF92582EFD6F37316F /* FeedbackSlack.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1065,13 +939,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1094,15 +969,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2962D19177AB8C4379E469DE248DC5A3 /* Build configuration list for PBXNativeTarget "FeedbackSlack-FeedbackSlack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8735DCA5274DCE8C66547156BA5F468 /* Debug */,
-				2819BEFE0AF98AB05CC1588E6BD1C5C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1121,11 +987,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5922478D02B17EBCC48CE678B2D9318A /* Build configuration list for PBXNativeTarget "FeedbackSlack" */ = {
+		E401EC1BE1422F007B6E1E609C90D9E0 /* Build configuration list for PBXNativeTarget "FeedbackSlack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA734A86A07E58E3EA3E540B7A0B7E08 /* Debug */,
-				507BA1426B2F4777DB4FB2CA403DB162 /* Release */,
+				37A80FF4FF6B62AF6DC7FD89C33E361A /* Debug */,
+				CC3819D59532623438BE105A53163CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
