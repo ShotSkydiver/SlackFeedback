@@ -1,5 +1,5 @@
 PODS:
-  - FeedbackSlack (0.0.9)
+  - FeedbackSlack (0.1.0)
 
 DEPENDENCIES:
   - FeedbackSlack (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FeedbackSlack: c86a0961aceb03b4cbd4147afc17f0940340431f
+  FeedbackSlack: cb0ed34a169b08aa3bc278ec6b77447865c8a416
 
 PODFILE CHECKSUM: 622236838dd1bf189c52fd707ee1fd441fbfaf5c
 

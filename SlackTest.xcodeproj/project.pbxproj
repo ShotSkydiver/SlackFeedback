@@ -193,7 +193,6 @@
 			children = (
 				4F37CBED1D6AF19E003F69DD /* Reachability.swift */,
 				4FD8C6011D6A8FCF004EF8D6 /* SlackRequest.swift */,
-				AD3269A91D69427400874453 /* FeedbackSlackViewController.storyboard */,
 				ADA77B1C1D6952870060DF67 /* FSSelectionField.swift */,
 				ADA77B1E1D6952A70060DF67 /* FSTextView.swift */,
 				AD3269B11D6945C600874453 /* Instantiatable.swift */,
@@ -208,6 +207,7 @@
 		855DC66E207F5DDF007E1C82 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AD3269A91D69427400874453 /* FeedbackSlackViewController.storyboard */,
 				AD3269AE1D6944BF00874453 /* Assets.xcassets */,
 			);
 			path = Assets;
