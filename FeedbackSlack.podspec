@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FeedbackSlack'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'This library provides feedback to Slack when users take a screenshot on iOS.'
 
 # This description is used to generate tags and improve search results.
