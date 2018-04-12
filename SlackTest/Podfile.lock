@@ -1,0 +1,16 @@
+PODS:
+  - FeedbackSlack (0.0.9)
+
+DEPENDENCIES:
+  - FeedbackSlack (from `../`)
+
+EXTERNAL SOURCES:
+  FeedbackSlack:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FeedbackSlack: aa4564500953f1b12890e1abc062290455a80dee
+
+PODFILE CHECKSUM: 622236838dd1bf189c52fd707ee1fd441fbfaf5c
+
+COCOAPODS: 1.5.0
