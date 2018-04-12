@@ -34,8 +34,7 @@ This library provides feedback to Slack when users take a screenshot on iOS. Use
 
   s.source_files = 'FeedbackSlack/Classes/**/*'
   
-  # s.resource_bundles = { 'FeedbackSlack' => ['FeedbackSlack/Classes/*.storyboard'] }
-  s.resources =  ['FeedbackSlack/Assets/*.{xcassets,storyboard,xib}']
+  s.resources = "FeedbackSlack/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # s.public_header_files = 'FeedbackSlack/**/*.h'
   s.frameworks = 'SystemConfiguration', 'CoreTelephony'

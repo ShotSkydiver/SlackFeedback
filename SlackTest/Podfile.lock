@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FeedbackSlack: cb0ed34a169b08aa3bc278ec6b77447865c8a416
+  FeedbackSlack: 33a92b03b8d3683e4ba36700be61bec6124e384a
 
 PODFILE CHECKSUM: 622236838dd1bf189c52fd707ee1fd441fbfaf5c
 
