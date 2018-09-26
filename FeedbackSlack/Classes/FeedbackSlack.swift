@@ -20,7 +20,7 @@ import Foundation
         self.subjects = subjects
         super.init()
 
-        NotificationCenter.default.addObserver(self, selector: #selector(FeedbackSlack.screenshotNotification(_:)), name: NSNotification.Name.UIApplicationUserDidTakeScreenshot, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(FeedbackSlack.screenshotNotification(_:)), name: UIApplication.userDidTakeScreenshotNotification, object: nil)
     }
 
     @objc public static var shared: FeedbackSlack?
