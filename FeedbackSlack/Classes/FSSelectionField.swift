@@ -33,7 +33,7 @@ import UIKit
         self.selectionFieldCommonInit()
     }
 
-    fileprivate func selectionFieldCommonInit() {
+    private func selectionFieldCommonInit() {
         self.inputAccessoryView = self.toolbar
         self.inputView = self.picker
     }
@@ -48,7 +48,7 @@ import UIKit
                 return
             }
 
-            if let index: Int = self.items.index(of: text) {
+            if let index: Int = self.items.firstIndex(of: text) {
                 self.picker.selectRow(index, inComponent: 0, animated: true)
             }
         }

@@ -14,7 +14,7 @@ import Foundation
     @objc open var enabled: Bool = true
     @objc open var options: String?
     @objc var subjects: [String]?
-    fileprivate init(slackToken: String, slackChannel: String, subjects: [String]? = nil) {
+    private init(slackToken: String, slackChannel: String, subjects: [String]? = nil) {
         self.slackToken = slackToken
         self.slackChannel = slackChannel
         self.subjects = subjects
@@ -24,7 +24,7 @@ import Foundation
     }
 
     @objc public static var shared: FeedbackSlack?
-    fileprivate lazy var sharedWindow: UIWindow = {
+    private lazy var sharedWindow: UIWindow = {
         let result: UIWindow = UIWindow(frame: UIApplication.shared.keyWindow?.bounds ?? UIScreen.main.bounds)
         return result
     }()
@@ -37,7 +37,7 @@ import Foundation
         return shared
     }
 
-    fileprivate var feedbacking: Bool = false
+    private var feedbacking: Bool = false
     @objc func screenshotNotification(_ notification: Notification) {
         guard let window: UIWindow = UIApplication.shared.delegate?.window!, !self.feedbacking, self.enabled else {
             return

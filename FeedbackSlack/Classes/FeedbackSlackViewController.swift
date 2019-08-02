@@ -121,7 +121,7 @@ class FeedbackSlackViewController: UIViewController {
         self.postSlack(post)
     }
 
-    fileprivate func postSlack(_ comment: String) {
+    private func postSlack(_ comment: String) {
         guard let slack: FeedbackSlack = FeedbackSlack.shared,
             let image: UIImage = self.image,
             let data: Data = image.pngData(),
